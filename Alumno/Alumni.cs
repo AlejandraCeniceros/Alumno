@@ -20,18 +20,11 @@ namespace Alumno
             Nombre = "Pendiente";
         }
 
-        public Alumni(string nacimiento, string direccion, string telefono)
-        {
-            Matricula = "sin asignar";
-            Nombre = "Pendiente";
-            Nacimiento = nacimiento;
-            Direccion = direccion;
-            Telefono = telefono; 
-
-        }
-
         public Alumni(string nombre, string matricula)
         {
+            Nombre = nombre;
+            Matricula = matricula;
+            
 
         }
     }
